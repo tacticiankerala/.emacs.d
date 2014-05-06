@@ -57,10 +57,10 @@
 (global-set-key [f2] 'comment-region)
 (global-set-key [f3] 'uncomment-region)
 (global-set-key [f5] 'indent-region)
-(global-set-key "\C-w" 'backward-kill-word)
+;;(global-set-key "\C-w" 'backward-kill-word)
 (global-set-key "\C-l" 'end-of-line)
 
-(global-set-key "\C-x\C-k" 'kill-region)
+;;(global-set-key "\C-x\C-k" 'kill-region)
 (global-set-key "\C-xt" 'select-frame-by-name)
 
 (global-set-key "\C-x\C-m" 'execute-extended-command)

@@ -13,3 +13,4 @@
 (load "06flyspell.el")
 (load "07ido-vertical.el")
 (load "08power-line.el")
+(load "09smart-beginning-of-line.el")
