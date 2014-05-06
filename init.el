@@ -1,0 +1,15 @@
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+(require 'pallet)
+
+(add-to-list 'load-path "~/.emacs.d/custom")
+
+(load "00common-setup.el")
+(load "01ruby.el")
+(load "02auto-complete.el")
+(load "03spartparens.el")
+(load "04projectile.el")
+(load "05highlight-indentation.el")
+(load "06flyspell.el")
+(load "07ido-vertical.el")
+(load "08power-line.el")
