@@ -28,7 +28,7 @@
 (menu-bar-mode t)
 (tool-bar-mode -1)
 ;;(enable-theme 'solarized-dark)
-
+(load-theme 'zenburn t)
 ;; trucate even even when screen is split into multiple windows
 (setq-default truncate-partial-width-windows nil)
 
