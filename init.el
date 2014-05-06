@@ -14,3 +14,4 @@
 (load "07ido-vertical.el")
 (load "08power-line.el")
 (load "09smart-beginning-of-line.el")
+(load "10linum-relative.el")
