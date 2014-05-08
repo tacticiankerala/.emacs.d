@@ -1,1 +1,0 @@
-#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8 data ("/home/sreenath/Projects/narrable/" ("app/controllers/audio_recordings_controller.rb" "app/controllers/activities_controller.rb" "Gemfile") "/home/sreenath/.emacs.d/" (".cask/24.3.1/elpa/zenburn-theme-20140418.13/zenburn-theme-autoloads.el")))
