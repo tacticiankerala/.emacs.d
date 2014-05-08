@@ -9,7 +9,8 @@ https://github.com/jimweirich/emacs-setup/tree/master/snippets/text-mode/ruby-mo
 2. Install Pallet as mentioned in https://github.com/rdallasgray/pallet
 3. Clone this repo to ~/.emacs.d
 4. Goto ~/.emacs.d and do ```cask install```
-5. Start your emacs. 
+5. Install Fira Mono Regular ttf font, https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Regular.ttf
+6. Start your emacs. 
 
 
 PS: It may complaint about w3-cookie file/folder being not available. Please ignore the same
