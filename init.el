@@ -17,3 +17,5 @@
 (load "10linum-relative.el")
 (load "11color-theme-railscasts.el")
 (load "12yasnippet.el")
+(load "13js2mode.el")
+(load "14auto-indentation.el")
