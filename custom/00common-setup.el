@@ -19,7 +19,7 @@
 ;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
 (windmove-default-keybindings) 
 
-;;(set-frame-font "-apple-Fira_Mono-medium-normal-normal-*-*-*-*-*-m-0-iso10646-1")
+(set-frame-font "Fira Mono OT")
 
 ;; Display continuous lines
 (setq-default truncate-lines nil)
@@ -28,7 +28,7 @@
 (menu-bar-mode t)
 (tool-bar-mode -1)
 ;;(enable-theme 'solarized-dark)
-(load-theme 'zenburn t)
+;;(load-theme 'soft-morning t)
 ;; trucate even even when screen is split into multiple windows
 (setq-default truncate-partial-width-windows nil)
 

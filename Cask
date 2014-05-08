@@ -8,6 +8,7 @@
 (depends-on "auto-complete")
 (depends-on "calfw")
 (depends-on "cask")
+(depends-on "color-theme")
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "dash")
 (depends-on "drag-stuff")
