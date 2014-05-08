@@ -19,7 +19,7 @@
 ;; Navigate between windows using Alt-1, Alt-2, Shift-left, shift-up, shift-right
 (windmove-default-keybindings) 
 
-(set-frame-font "Fira Mono OT")
+(set-frame-font "Fira Mono")
 
 ;; Display continuous lines
 (setq-default truncate-lines nil)
