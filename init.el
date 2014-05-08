@@ -16,3 +16,4 @@
 (load "09smart-beginning-of-line.el")
 (load "10linum-relative.el")
 (load "11color-theme-railscasts.el")
+(load "12yasnippet.el")
