@@ -152,3 +152,7 @@
   (toggle-read-only))
 
 (add-hook 'compilation-filter-hook 'colorize-compilation-buffer)
+
+
+;;auto revert mode
+(global-auto-revert-mode t)
