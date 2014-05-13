@@ -22,4 +22,6 @@ Installation
 
 PS: It may complaint about w3-cookie file/folder being not available. Please ignore the same
 
+PPS: If your system's default ruby version is less than 1.9.3 then add ```(setq enh-ruby-program "path-to-ruby(>=1.9.3)/bin/ruby")``` to custom/01ruby.el . Otheriwse syntax highlighting in enh-ruby-mode will not work.
+
 
