@@ -20,3 +20,4 @@
 (load "13js2mode.el")
 (load "14auto-indentation.el")
 (load "15multiple-cursors.el")
+(load "16projectile-rails.el")
