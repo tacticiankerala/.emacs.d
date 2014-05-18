@@ -460,6 +460,52 @@ install the memoized function over the original function."
                                           (setq pmin (point-min)))
                                         (percent-xpm pmax pmin we ws 15 color1 color2))))
 
+
+
+
+
+(defun show-minor-mode()
+  (if (> (window-total-width) 105)
+      (powerline-minor-modes    'left        powerline-color1  )
+))
+
+(defun show-vc-status()
+  (if (> (window-total-width) 68)
+      (concat 
+       (powerline-narrow         'left        powerline-color1  powerline-color2  )
+       (powerline-vc             'center                        powerline-color2  )
+       (powerline-make-fill                                     powerline-color2  ))
+))
+
+(defun show-row-column-and-percentage-colour1()
+  (concat
+   (powerline-row            'right       powerline-color1  powerline-color2  )
+   (powerline-make-text      ":"          powerline-color1  )
+   (powerline-column         'right       powerline-color1  )
+   (powerline-percent        'right  nil  powerline-color1  )
+))
+
+
+(defun show-row-column-and-percentage-colour2()
+  (concat
+   (powerline-row            'right       powerline-color2  powerline-color1  )
+   (powerline-make-text      ":"          powerline-color2  )
+   (powerline-column         'left       powerline-color2)
+   (powerline-percent        'right  nil  powerline-color2  )
+))
+
+
+(defun show-row-column-and-percentage()
+  (if (> (window-total-width) 68)
+     (show-row-column-and-percentage-colour1)
+    (show-row-column-and-percentage-colour2)
+))
+
+
+
+
+
+
 (setq-default mode-line-format
               (list "%e"
                     '(:eval (concat
@@ -467,14 +513,9 @@ install the memoized function over the original function."
                              (powerline-rmw            'left   nil  )
                              (powerline-buffer-id      'left   nil  powerline-color1  )
                              (powerline-major-mode     'left        powerline-color1  )
-                             (powerline-minor-modes    'left        powerline-color1  )
-                             (powerline-narrow         'left        powerline-color1  powerline-color2  )
-                             (powerline-vc             'center                        powerline-color2  )
-                             (powerline-make-fill                                     powerline-color2  )
-                             (powerline-row            'right       powerline-color1  powerline-color2  )
-                             (powerline-make-text      ":"          powerline-color1  )
-                             (powerline-column         'right       powerline-color1  )
-                             (powerline-percent        'right  nil  powerline-color1  )
+                             (show-minor-mode)
+                             (show-vc-status)
+                             (show-row-column-and-percentage)
                              (powerline-make-text      "  "    nil  )))))
 
 (provide 'powerline)
