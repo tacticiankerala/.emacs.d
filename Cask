@@ -11,6 +11,7 @@
 (depends-on "color-theme")
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "dash")
+(depends-on "dash-at-point")
 (depends-on "drag-stuff")
 (depends-on "ecb")
 (depends-on "enclose")
