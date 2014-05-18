@@ -19,3 +19,4 @@
 (load "12yasnippet.el")
 (load "13js2mode.el")
 (load "14auto-indentation.el")
+(load "15multiple-cursors.el")

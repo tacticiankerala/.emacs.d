@@ -36,6 +36,7 @@
 (depends-on "multiple-cursors")
 (depends-on "noctilux-theme")
 (depends-on "pallet")
+(depends-on "phi-search")
 (depends-on "pkg-info")
 (depends-on "popup")
 (depends-on "project-explorer")
