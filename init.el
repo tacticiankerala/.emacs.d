@@ -21,3 +21,4 @@
 (load "14auto-indentation.el")
 (load "15multiple-cursors.el")
 (load "16projectile-rails.el")
+(load "17move-text.el")
